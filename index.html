@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-094LHHCDTE"></script>
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="aplicativo-de-script-de-atalho.png" alt="Lima">
+                </a>
+            </div><!--logo-->
+
+            
+
+            <nav class="navbar">
+                
+                <ul>
+                    <a href="https://wa.me/+5562995299207?text=Ol%C3%A1!" target="_blank"><button class="sitebtn" >Contato</button></a>
+                </ul>
+    
+                <div class="menu-icon" onclick="meuShow()">
+                    <img src="menu-aberto.png" alt="Imagem não suportada">
+                </div>
+    
+            </nav>
+
+            <div class="btn-ico">
+                <a href="https://github.com/limafrancr?tab=repositories" target="_blank"><i class="bi bi-github"></i></a>
+
+                <a href="https://www.linkedin.com/in/limafrancr " target="_blank"><i class="bi bi-linkedin"></i></a>
+
+                <a href="https://www.instagram.com/limafrancr/?hl=pt-br" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div><!--btn-contato-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>DESENVOLVEDOR WEB<span>.</span></h1>
+                        <p>Gosto de criar produtos front-end sólidos e escaláveis ​​com ótimas experiências de usuário, e análisar dados com python</p>
+
+                        <div class="btn-contato">
+                            <a href="https://wa.me/+5562995299207?text=Ol%C3%A1!" target="_blank"><button class="sitebtn" >Contato</button></a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="imgprff.png" alt="navegador pode não suportar essa imagem">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especiliadades">
+            <div class="interface">
+                <!-- <h2 clas="titulo"> <span id="habilidades">HABILIDADES</span>.</h2> -->
+                <h2 class="titulo">MINHAS<span id="habilidades"> HABILIDADES</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-html"></i>
+                        <!--<h3>Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>-->
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-css"></i>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <!--<h3>Loja online</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>-->
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-py"></i>
+                        <!--<h3>Blog</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>-->
+                    </div>
+
+                    <div class="especialidades-box"><i class="bi bi-github"></i></div>
+                    
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/foto.png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <!-- <h2>MUITO PRAZER, <span>Francisco Lima.</span></h2> -->
+                        <h2>MUITO PRAZER<span id="sobre"> FRANCISCO LIMA</span></h2>
+                        <p>Estou a procura de um estágio ou oportunidade de primeiro emprego na área.
+                            Cursando Análise e desenvolvimento de sistemas na faculdade Unopar 2º semestre.</p>
+                        <p>Realizei alguns projetos os quais estão disponíveis mais abaixo:</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/limafrancr/?hl=pt-br" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://wa.me/+5562995299207?text=Ol%C3%A1!" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                            <a href="https://linkedin.com/in/limafrancr/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU<span id="portifolio"> PORTFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port"  style="background-image: url(escrever.png); ">
+                        <div class="overlay"><a href="https://lively-bublanina-dca0ca.netlify.app/" target="_blank">Ver</a></div>
+                    </div>
+                    <div class="img-port" style="background-image: url(lgon.png);">
+                        <div class="overlay"><a href="https://fascinating-genie-a27833.netlify.app/" target="_blank">Ver</a></div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay"><a href="" target="_blank">Aqui vai algo</a></div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="https://formsubmit.co/franciscolimalima998@gmail.com" method="POST">
+                    <input type="text" name="name" required placeholder="Nome">
+                    <input type="email" name="email" required placeholder="Seu e-mail">
+                    <input type="text" name="text" required placeholder="Assunto">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit" class="sitebtn"><span>Enviar</span></button>
+               </form>
+
+                <!-- <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form> -->
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="aplicativo-de-script-de-atalho.png" alt="Imagen não carregada">
+                        <a href="index.html">Início</a>
+                    </div><!--logo-footer-->
+                    <div class="local">Local:
+                        <a href="https://goo.gl/maps/VtgxxaFRshZtmhPe8" target="_blank">Av. Federal - Anápolis-GO</a>
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/limafrancr/?hl=pt-br" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="
+                        https://wa.me/+5562995299207?text=Ol%C3%A1!" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                        <a href="https://www.linkedin.com/in/limafrancr " target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i><a href="https://gmail.com" target="_blank">franciscolimalima998@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+    <p class="direitos">2023 © Todos os direitos reservados | Feito por: 
+        <a href="https://www.linkedin.com/in/limafrancr " target="_blank">Francisco R. Lima</a>
+    </p>
+
+    
+</body>  
