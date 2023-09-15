@@ -300,8 +300,7 @@ section.sobre .flex {
     background-color:  rgb(118,128,201);
     font-size: 22px;
     cursor: pointer;
-    margin: 1 1.6rem;
-    transition: .2s;
+   /* margin: 1 1.6rem;*/
     gap: 2rem;
 }
 
