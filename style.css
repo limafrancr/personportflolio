@@ -520,7 +520,7 @@ footer .line-footer p a {
 
     .interface{
         width: 100%;
-        margin: 2px; /*Ultimo editado para responsividade*/
+        margin: 0; /*Ultimo editado para responsividade*/
         padding: 3rem;
     }
 
@@ -547,14 +547,14 @@ footer .line-footer p a {
 
     /* ESPECIALIDADES */
     section.especiliadades {
-        padding: 1px 8%;
+        width: 50%;
+        padding: 0;
         display: flex;
-        width: 100%;
     }
 
     .especialidades-box{
         display: flex;
-        flex-wrap: wrap;
+        margin: 0;
     }
 
     /* SOBRE */
