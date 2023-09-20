@@ -309,14 +309,15 @@ section.sobre .flex {
 
 
 /* ESTILO DO PORTFÓLIO */
-section.portfolio {
+.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
 section.portfolio .flex {
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 60px;
+   
 }
 
 .img-port {
@@ -423,6 +424,15 @@ footer {
     
 }
 
+.bacg{
+    display: flex;
+    justify-content: space-between; /*div flex html*/
+    gap: 1.2rem;
+    max-width: 100%;
+    margin-top: 9rem;
+    bottom: 0;
+}
+
 footer .flex {
     justify-content: space-between;
 }
@@ -458,6 +468,12 @@ footer .line-footer p a {
        /* flex-direction: column;*/
        display: flex;
        flex-wrap: wrap;
+    }
+
+    .bacg{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
     }
 
     .topo-do-site .flex{
@@ -585,6 +601,7 @@ footer .line-footer p a {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
+        justify-content: space-around;
     }
     
     section.portfolio .flex {
